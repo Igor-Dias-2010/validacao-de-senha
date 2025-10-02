@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+input,
+button {
+    margin-top: 10px;
+}
+
+input {
+    letter-spacing: 2px;
+}
+
+::-webkit-input-placeholder {
+    letter-spacing: 0px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+    color: black;
+}
